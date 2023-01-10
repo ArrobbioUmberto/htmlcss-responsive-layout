@@ -204,6 +204,11 @@ a{
     text-align: center;
     font-style: italic;
 }
+.arrow{
+    background-color: var(--purple);
+    line-height: 2rem;
+    margin: 2rem 0;
+}
 
 
 
