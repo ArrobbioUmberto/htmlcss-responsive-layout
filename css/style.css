@@ -19,7 +19,7 @@ a{
     --yellow:#fbc15f;
 }
 .container{
-    max-width: 1160px;
+    max-width: 1156px;
     margin: 0 auto;
 }
 .nav__header{
@@ -29,6 +29,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 .nav__list{
     display: flex;
