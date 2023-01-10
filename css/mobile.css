@@ -1,15 +1,11 @@
 
-/* MEDIAQUERY DESKTOP-FIRST HERO */
+
 
 @media only screen and (max-width:414px){
-    [class^="col__"]{
-        flex-basis: 100%;
-    }
-}
+ 
 
 /* MEDIAQUERY DESKTOP-FIRST NAV HEADER */
 
-@media only screen and (max-width:414px){
     .card__description{
         justify-content: center;
     }
@@ -27,5 +23,16 @@
     .phone{
         margin: 0 auto;
     }
+/* MEDIAQUERY DESKTOP-FIRST HERO */
+
+
+    [class^="col__"]{
+        flex-basis: 100%;
+    }
     
+    /* MEDIAQUERY DESKTOP-FIRST PLANNING SECTION  */
+
+    .title__planning{
+        font-size: 2rem ;
+    }
 }

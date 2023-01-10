@@ -123,11 +123,8 @@ a{
 }
 .title__first__card,
 .text__first__card{
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     line-height: 2rem;
-}
-.title__first__card{
-    margin-top: 2rem;
 }
 .blue__button{
     background-color: var(--blue);
@@ -140,7 +137,7 @@ a{
     font-size: 1rem;
 }
 .card__image{
-    margin-top: 35px;
+    margin-top: auto;
 }
 .phone{
     width: 70%;
@@ -196,6 +193,7 @@ a{
     margin: 1.5rem 0;
 }
 .text__planning{
+    color: white;
     line-height: 2rem;
 }
 .text__planning__italic{
