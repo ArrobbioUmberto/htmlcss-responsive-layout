@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,
+li,
+ol,
+menu{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --blue:#1f84fd;
+    --lightblue: #b5ddff;
+    --purple:#9792e4;
+    --yellow:#fbc15f;
+}
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.nav__header{
+    background-color: var(--blue);
+}
+.nav__bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    flex-direction: row;
+}
+.nav__list__item{
+    color: white;
+    padding: 0 16px;
+}
