@@ -242,6 +242,7 @@ a{
     font-size: 1rem;
     text-align: center;
     line-height: 2em;
+    display: block;
 }
 .text__partners--description,
 .cite--description{
@@ -272,8 +273,8 @@ a{
 .partners--img{
     object-fit: cover;
     border-radius: 50%;
-    height: 220px;
-    width: 100%;
+    height: 200px;
+    width: 200px;
 }
 
 

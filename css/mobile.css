@@ -35,4 +35,22 @@
     .title__planning{
         font-size: 2rem ;
     }
+
+      /* MEDIAQUERY DESKTOP-FIRST PARTNERS SECTION  */
+
+    .partner{
+        flex-direction: column;
+    }
+    .text__partners--description,
+    .cite--description,
+    .subtitle__partners{
+        text-align: center;
+    }
+    .text__partners, 
+    .subtitle__partners{
+        margin: 0 32px;
+    }
+    .partners__description{
+        padding: 0;
+    }
 }

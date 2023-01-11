@@ -38,5 +38,12 @@
     .text__planning__italic{
         padding: 1rem;
     }
+
     
+    /* MEDIAQUERY DESKTOP-FIRST PARTNERS SECTION  */
+
+    .partner{
+        margin: 0 32px;
+        flex-wrap: nowrap;
+    }
 }
