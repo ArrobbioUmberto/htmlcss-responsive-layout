@@ -294,12 +294,14 @@ a{
 }
 .row--benefits{
     padding-top: 55px;
+    gap: 30px;
 }
 .card__benefits{
     background-color: white;
     align-items: flex-start;
-    gap: 30px;
     padding: 30px 20px;
+    row-gap: 30px;
+    flex-basis: calc(100%/3 - 30px / (3/2));
 }
 .title__benefits--card{
     color: var(--purple);
