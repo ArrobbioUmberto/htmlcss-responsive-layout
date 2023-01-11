@@ -46,7 +46,7 @@ a{
     flex-basis: calc(100%/3 - 16px / (3/2));
 }
 .col__20{
-    flex-basis: calc(100%/5);
+    flex-basis: 20%;
 }
 
 .title{
@@ -236,20 +236,44 @@ a{
     color: var(--purple);
     font-weight: 700;
 }
-.text__partners{
+.text__partners, 
+.text__partners--description,
+.cite--description{
     font-size: 1rem;
     text-align: center;
     line-height: 2em;
+}
+.text__partners--description,
+.cite--description{
+    color: white;
+    text-align: start;
+}
+.text__partners--description{
+    margin: 20px 10px;
+}
+.cite--description{
+    margin: 30px 10px 0;
+    font-weight: 600;
+}
+.partners__description{
+    margin: 20px 0px;
+    padding: 0 20px;
 }
 .partner{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    border-radius: 50px;
+    background-color: var(--purple);
+    padding: 40px 10px;
 }
 .partners--img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 220px;
     width: 100%;
-    border-radius: 50px;
 }
 
 
