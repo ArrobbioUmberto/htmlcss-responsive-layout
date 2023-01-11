@@ -32,6 +32,10 @@ a{
     max-width: 880px;
     margin: 0 auto;
 }
+.container--xs{
+    margin: 0 auto;
+    max-width: 630px;
+}
 .col__80{
     flex-basis: 80%;
 }
@@ -378,5 +382,17 @@ a{
 }
 .linkedin--button{
     padding: 0 16px;
+}
+
+
+/* SECTION GET STARTED  */
+.get--started{
+    background-color: var(--purple);
+    padding: 50px 0;
+}
+.row--get--started{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
