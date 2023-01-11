@@ -323,3 +323,50 @@ a{
     padding: 0 50px;
 }
 
+/* SECTION ABOUT US  */
+
+.row--about--us{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 16px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.img__about--us{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.quote--position{
+    position: relative;
+}
+.quote{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--purple);
+    font-size: 2rem;
+}
+.about--us__card--description,
+.about--us__card--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    row-gap: 1rem;
+}
+.about--us__card--text{
+    align-items: flex-start;
+    row-gap: 2rem;
+}
+.title__about--us{
+    color: var(--purple);
+    font-size: 3rem;
+}
+.text__about--us{
+    line-height: 2rem;
+    font-weight: 300;
+}
+
