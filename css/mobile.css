@@ -53,4 +53,15 @@
     .partners__description{
         padding: 0;
     }
+
+     /* MEDIAQUERY DESKTOP-FIRST BENEFITS SECTION  */
+
+     .card__benefits{
+        flex-basis: 100%;
+     }
+    
+
+
+
+
 }
