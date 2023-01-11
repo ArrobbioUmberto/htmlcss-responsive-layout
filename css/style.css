@@ -98,15 +98,13 @@ a{
 
 
 /* HERO SECTION  */
-
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 .hero__row{
     gap: 30px 16px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin: 50px 2rem 100px;
 }
 .card{
     background-color: var(--lightblue);
@@ -223,12 +221,21 @@ a{
 
 .container.partners{
     padding: 50px 0 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+.row--partners--text{
     align-items: center;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 30px;
-
+}
+.row--partners,
+.row--partners--text{
+    margin: 0 2rem;
 }
 .title__partners{
     font-size: 1rem;
@@ -263,10 +270,10 @@ a{
     margin: 20px 0px;
     padding: 0 20px;
 }
-.partner{
+.row--partners{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     border-radius: 50px;
@@ -386,6 +393,8 @@ a{
 
 
 /* SECTION GET STARTED  */
+
+
 .get--started{
     background-color: var(--purple);
     padding: 50px 0;
@@ -425,6 +434,31 @@ a{
     text-decoration: underline;
     color: white;
     
+}
+
+
+/* SECTION FOOTER  */
+
+footer{
+    background-color: black;
+    padding: 2rem 0.8rem;
+}
+.row--footer{
+    justify-content: center;
+    align-items: center;
+    row-gap: 4rem;
+}
+.text__footer{
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1rem;
+    max-width: 70%;
+    text-align: center;
+}
+.footer__link{
+    text-decoration: underline;
+    color: var(--purple);
 }
 
 
