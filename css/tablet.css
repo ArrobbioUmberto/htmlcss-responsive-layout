@@ -46,4 +46,15 @@
         margin: 0 32px;
         flex-wrap: nowrap;
     }
+
+     /* MEDIAQUERY DESKTOP-FIRST BENEFITS SECTION  */
+
+     .card__benefits{
+        flex-basis: calc(100%/2 - 30px/ 2);
+     }
+     .row--benefits{
+        margin: 0 2rem;
+     }
+
+
 }
