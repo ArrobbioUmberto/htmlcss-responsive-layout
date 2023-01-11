@@ -12,9 +12,7 @@
     }
 
     /* MEDIAQUERY DESKTOP-FIRST HERO SECTION  */
-    .hero__row{
-        padding: 0 32px;
-    }
+
     .first__card{
         display: flex;
         flex-direction: column;
@@ -42,7 +40,7 @@
     
     /* MEDIAQUERY DESKTOP-FIRST PARTNERS SECTION  */
 
-    .partner{
+    .row--partners{
         margin: 0 32px;
         flex-wrap: nowrap;
     }
