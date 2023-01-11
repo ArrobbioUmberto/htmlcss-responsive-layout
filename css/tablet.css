@@ -56,5 +56,10 @@
         margin: 0 2rem;
      }
 
+      /* MEDIAQUERY DESKTOP-FIRST ABOUT US SECTION  */
+
+      .text__about--us__card--description{
+        padding: 0 0.5rem;
+      }
 
 }
