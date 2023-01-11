@@ -70,6 +70,15 @@
         margin-top: 3rem;
         align-items: flex-start;
       }
+
+       /* MEDIAQUERY DESKTOP-FIRST GET STARTED SECTION  */
+
+       .subtitle__get--started{
+        text-align: center;
+       }
+
+
+
     
 
 
