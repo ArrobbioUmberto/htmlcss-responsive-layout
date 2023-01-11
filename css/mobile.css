@@ -38,8 +38,9 @@
 
       /* MEDIAQUERY DESKTOP-FIRST PARTNERS SECTION  */
 
-    .partner{
+    .row--partners{
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .text__partners--description,
     .cite--description,
