@@ -59,6 +59,17 @@
      .card__benefits{
         flex-basis: 100%;
      }
+
+      /* MEDIAQUERY DESKTOP-FIRST ABOUT US SECTION  */
+
+      .row--about--us{
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .about--us__card--description{
+        margin-top: 3rem;
+        align-items: flex-start;
+      }
     
 
 
