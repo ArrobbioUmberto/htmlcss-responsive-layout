@@ -1,0 +1,40 @@
+
+
+@media only screen and (max-width: 625px){
+
+
+    /* MEDIAQUERY FOR HERO SECTION  */
+    .first__card{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .blue__button,
+    .phone{
+        margin: 0 auto;
+    }
+    [class^="col__"]{
+        flex-basis: 100%;
+    }
+
+     /* MEDIAQUERY FOR PARTNERS SECTION  */
+
+     .row--partners{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+     }
+     .cite--description{
+        text-align: center;
+     }
+
+
+      /* MEDIAQUERY FOR ABOUT US SECTION  */
+
+      .row--about--us{
+        flex-direction: column;
+      }
+
+
+
+}
